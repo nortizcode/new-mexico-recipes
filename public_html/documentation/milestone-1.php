@@ -6,7 +6,7 @@
 </head>
 <body>
 	<div>
-		<img src="mom.jpg" alt="Picture of Natalie Ortiz"/>
+		<img src="https://i.ibb.co/6NStKYy/mom.jpg" alt="Picture of Natalie" height="300" width="300">
 	</div>
 	<div>
 		<h2>Purpose, Audience & Goal</h2>
@@ -26,12 +26,9 @@
 	</div>
 	<div>
 		<h2>Persona</h2>
-		<br>
 		<p><strong>Name:</strong>Natalie Ortiz</p>
 		<p><strong>Age:</strong>35</p>
-		<br>
 		<p><strong>Profession:</strong>Works at Enterprise Bank & Trust as a teller in Santa Fe, New Mexico.</p>
-		<br>
 		<p>
 			<strong>Technology:</strong>Windows user. Uses a HP Envy with Intel Core i5, a Surface Pro, and a Samsung S10
 			with unlimited 4G data connection.
@@ -42,14 +39,12 @@
 			goes to work, picks up her sons from an after school program after work. She enjoys cooking for her sons with her
 			husband. Is an avid social media user and is apart of the Facebook group New Mexico recipes.
 		</p>
-		<br>
 		<p>
 			<strong>Goals and Needs:</strong>Natalie enjoys the cuisine in New Mexico and likes how nightly dinner brings her family
 			together. Her goal is to find new recipes on New Mexican Cuisine to cook for her family. Natalie likes the Facebook
 			group "New Mexico Recipes" but needs a faster and more organized way to find new recipes rather than scrolling through
 			the groups timeline.
 		</p>
-		<br>
 		<p>
 			<strong>User Story:</strong>As a user, I need to quickly find new recipes on New Mexico cuisine on my laptop or
 			cell phone.
