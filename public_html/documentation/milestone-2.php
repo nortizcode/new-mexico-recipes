@@ -13,8 +13,8 @@
 		picture behind it.</p>
 		<p><strong>New Mexico Cuisine:</strong> The second section will have information on New Mexico Cuisine and also
 		have information about the start and intentions of the Facebook group "New Mexico Recipes"</p>
-		<p><strong>Recipes:</strong></p> This section will have all the most popular recipes ordered by "breakfast", "lunch",
-		"dinner", and "desserts and drinks". Each recipe will have a picture and the recipe posted right next to it.
+		<p><strong>Recipes:</strong> This section will have all the most popular recipes ordered by "breakfast", "lunch",
+		"dinner", and "desserts and drinks". Each recipe will have a picture and the recipe posted right next to it.</p>
 		<p><strong>Contact Us:</strong> The last section will have a contact form and also links to Facebook, Email, Instagram
 		and phone number.</p>
 	</div>
