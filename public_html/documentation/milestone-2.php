@@ -25,7 +25,7 @@
 		<h2>Mobile Layout</h2>
 		<img src="https://i.ibb.co/hY06p7t/wireframe.png" alt="wireframe"/>
 		<h2>Full Screen Layout</h2>
-		<img src="https://i.ibb.co/ZHZ3rx3/New-Wireframe-1.png" alt="Full screen wireframe">
+		<img src="https://i.ibb.co/ZHZ3rx3/New-Wireframe-1.png" alt="Full screen">
 	</div>
 </body>
 
