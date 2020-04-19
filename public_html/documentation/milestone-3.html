@@ -9,6 +9,7 @@
 	<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
 
+	<link href="./style.css" rel="stylesheet" type="text/css">
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script crossorigin="anonymous"
@@ -25,8 +26,10 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	<a class="navbar-brand" href="#">NM Recipes</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	<a class="navbar-brand" href="#">
+		<img alt="Zia" height="50" src="../images/zia.png" width="50">
+	</a>
 	<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
 			  data-target="#navbarNav" data-toggle="collapse" type="button">
 		<span class="navbar-toggler-icon"></span>
@@ -34,28 +37,37 @@
 	<div class="collapse navbar-collapse" id="navbarNav">
 		<ul class="navbar-nav">
 			<li class="nav-item active">
-				<a class="nav-link" href="#">Breakfast</a>
+				<a class="nav-link" href="#breakfast">Breakfast</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Lunch and Appetizers</a>
+			<li class="nav-item active">
+				<a class="nav-link" href="#lunch">Lunch and Appetizers</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Dinner</a>
+			<li class="nav-item active">
+				<a class="nav-link" href="#dinner">Dinner</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Dessert and Drinks</a>
+			<li class="nav-item active">
+				<a class="nav-link" href="#dessert">Dessert and Drinks</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="#contact">Contact Us</a>
 			</li>
 		</ul>
 	</div>
 </nav>
 <br>
-<div class="jumbotron jumbotron-fluid">
+<br>
+<br>
+
+<div class="jumbotron jumbotron-fluid" id="jumbotron">
 	<div class="container">
 		<h1 class="display-4">New Mexico Recipes</h1>
 		<p class="lead">Find recipes on New Mexico cuisine all in one place.</p>
 	</div>
 </div>
 
+<a name="breakfast"></a>
+<h1 class="text-center p-3 mb-2 bg-dark text-white">Breakfast</h1>
+<br>
 
 <div class="bg-light">
 	<div class="container">
@@ -74,6 +86,36 @@
 				</p>
 				<p>
 					Submitted by Jana De Herrera
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<a name="lunch"></a>
+<br>
+<h1 class="text-center p-3 mb-2 bg-dark text-white">Lunch and Appetizers</h1>
+<br>
+<div class="bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<img alt="Ceviche" class="image-fluid rounded" height="350" src="../images/ceviche.jpg" width="300"/>
+			</div>
+			<div class="col-md-8">
+
+				<h1 class="text-left">Ceviche</h1>
+				<p class="text-left">1 bag uncooked shrimp
+					<br>boil until cooked
+					<br>Drain and let cool down.
+					<br> In the mean time, Peel and dice 1 cucumber, Dice 1 tomato, onion to your liking.
+					<br>1 jalapeno.
+					<br>Dice shrimp once cooled. Add to veggies.
+					<br>Dice 2 avocados and cilantro, to your liking.
+					<br>Season with salt, garlic, pepper and squeeze 1 lemon and 1 lime.
+					<br>Refrigerate after for about an hour before eating.
+				</p>
+				<p>
+					Submitted by Dashia Nicole
 				</p>
 			</div>
 		</div>
@@ -139,60 +181,6 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<h1 class="text-right">Tortillas</h1>
-				<p class="text-right">3 cups of flour
-					<br> 1 1/2 teaspoons baking powder
-					<br> 3 tablespoons of shortening or lard
-					<br> 1 1/2 teaspoons of salt
-					<br> 3/4 cup of warm water
-					<br>Combine all ingredients adding water a little at a time. Knead dough for approximately 2 minutes.
-					Divide dough into 1 inch balls and roll out into 6 inch tortillas. Cook on griddle turning only once.
-					Make approximately 1 dozen.
-				</p>
-				<p class="text-right">
-					Submitted by Fran Roybal
-				</p>
-			</div>
-			<div class="col-md-4">
-				<img alt="Pico De Gallo" class="image-fluid rounded" height="300" src="../images/tortillas.jpg"
-					  width="350"/></div>
-		</div>
-	</div>
-</div>
-<br>
-<div class="bg-light">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<img alt="Natillas" class="image-fluid rounded" height="350" src="../images/natillas.jpg" width="350"/>
-			</div>
-			<div class="col-md-8">
-
-				<h1>Natillas</h1>
-				<p>2 eggs, separated
-					<br>1 1/4 cup of flour
-					<br>1 pint of milk
-					<br>3/4 cup of sugar
-					<br>1/8 teaspoon salt
-					<br>1/8 teaspoon cinnamon
-					<br>Make paste with egg yolk, flour, and 1 cup of milk. Set aside. Add sugar and salt to remaining milk
-					scald at medium heat. Add egg mixture and cook at medium temperature until reaches consistency of soft
-					custard (approx. 30-40 minutes)
-					Beat egg whites until stiff and fold into custard. Pour into serving dish, let it cool, sprinkle with
-					cinnamon and serve.
-				</p>
-				<p>
-					Submitted by Fran Roybal
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<br>
-<div class="bg-light">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
 				<h1 class="text-right">Red Chile</h1>
 				<p class="text-right">1/2 cup Pure Chimayo Red Chile powder
 					<br> 2 1/2 cups vegetable or chicken broth
@@ -222,6 +210,65 @@
 		</div>
 	</div>
 </div>
+<br>
+<div class="bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<img alt="Street Tacos" class="image-fluid rounded" height="450" src="../images/street-tacos.jpg" width="350"/>
+			</div>
+			<div class="col-md-8">
+
+				<h1 class="text-left">Street Tacos</h1>
+				<p class="text-left">Beef
+					<br>Skirt steak rubbed with a mixture of spices (1 tbsp red chili powder, 1 tbsp cumin, 1 tbsp garlic powder, 1 tbsp pepper, t tbsp salt) wrap in foil, bake on 225 for 3 or more hours. Slice, it will actually fall apart.
+					<br>Corn tortillas
+					<br>2 cups masa harina
+					<br>1/2 teaspoon kosher salt
+					<br>1 1/2 cups hot water
+					<br>Mix till smooth texture, let sit 10-20 min. Roll into golf size balls and press in tortilla press. Place on tortilla cast iron pan on med high heat.
+					<br>Pico de gallo
+					<br>3 tomatoes chopped
+					<br>2 jalepenos chopped
+					<br>2 green onions sliced
+					<br>Juice of 2 limes
+					<br>Salt to taste
+				</p>
+				<p>
+					Submitted by Michelle Patschke
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<div class="bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1 class="text-right">Tortillas</h1>
+				<p class="text-right">3 cups of flour
+					<br> 1 1/2 teaspoons baking powder
+					<br> 3 tablespoons of shortening or lard
+					<br> 1 1/2 teaspoons of salt
+					<br> 3/4 cup of warm water
+					<br>Combine all ingredients adding water a little at a time. Knead dough for approximately 2 minutes.
+					Divide dough into 1 inch balls and roll out into 6 inch tortillas. Cook on griddle turning only once.
+					Make approximately 1 dozen.
+				</p>
+				<p class="text-right">
+					Submitted by Fran Roybal
+				</p>
+			</div>
+			<div class="col-md-4">
+				<img alt="Pico De Gallo" class="image-fluid rounded" height="300" src="../images/tortillas.jpg"
+					  width="350"/></div>
+		</div>
+	</div>
+</div>
+<a name="dinner"></a>
+<br>
+<h1 class="text-center dinner p-3 mb-2 bg-dark text-white">Dinner</h1>
 <br>
 <div class="bg-light">
 	<div class="container">
@@ -267,12 +314,113 @@
 				</p>
 			</div>
 			<div class="col-md-4">
-				<img alt="Fideo with Ground Beef" class="image-fluid rounded" height="300" src="../images/red-chile.jpg"
+				<img src="../images/fideo.jpg" alt="Fideo with Ground Beef" class="image-fluid rounded" height="300"
 					  width="350"/>
 			</div>
 		</div>
 	</div>
 </div>
+<a name="dessert"></a>
 <br>
+<h1 class="text-center dessert p-3 mb-2 bg-dark text-white">Desserts and Drinks</h1>
+<br>
+<div class="bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<img alt="Natillas" class="image-fluid rounded" height="350" src="../images/natillas.jpg" width="350"/>
+			</div>
+			<div class="col-md-8">
+
+				<h1>Natillas</h1>
+				<p>2 eggs, separated
+					<br>1 1/4 cup of flour
+					<br>1 pint of milk
+					<br>3/4 cup of sugar
+					<br>1/8 teaspoon salt
+					<br>1/8 teaspoon cinnamon
+					<br>Make paste with egg yolk, flour, and 1 cup of milk. Set aside. Add sugar and salt to remaining milk
+					scald at medium heat. Add egg mixture and cook at medium temperature until reaches consistency of soft
+					custard (approx. 30-40 minutes)
+					Beat egg whites until stiff and fold into custard. Pour into serving dish, let it cool, sprinkle with
+					cinnamon and serve.
+				</p>
+				<p>
+					Submitted by Fran Roybal
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<div class="bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1 class="text-right">Apple Fritters</h1>
+				<br>
+				<p class="text-right">1 1/2 cups diced apples, peeled (2-3 apples)
+					<br>1 cup flour
+					<br>1/4 cup sugar
+					<br>1 1/2 teaspoons baking powder
+					<br>1/3 cup milk
+					<br>1 egg
+					<br>2 tablespoons sugar
+					<br>1 teaspoon cinnamon
+					<br>Oil for frying
+					In bowl, mix flour, sugar and baking powder.
+					In a glass, mix milk and egg then add it into dry ingredients and mix until just combined
+					(Mixture will be thick).
+					In bowl, toss the apple chunks with the cinnamon and sugar
+					Add apples into batter and stir just to coat apples.
+					Heat fryer to 350.
+					Drop by heaping tablespoonfuls.
+					(use a second spoon to help drop batter from first spoon)
+					Fry for 3-4 minutes.
+					(use a fork or tongs to flip over 1/2 way)
+					Place on a cooling rack with paper towels underneath.
+					Glaze.
+					<br>1 1/2 cups icing sugar
+					<br>1/2 teaspoon vanilla
+					<br>2 tablespoons milk
+					In small bowl, mix glaze ingredients and drizzle over fritters
+					<br>Fry in batches
+					<br>Makes 8-10 depending on size you drop them
+				</p>
+				<br>
+				<p class="text-right">
+					Submitted by Sara Lynn
+				</p>
+			</div>
+			<div class="col-md-4">
+				<img src="../images/apple-fritters.jpg" alt="Apple Fritters" class="image-fluid rounded" height="590"
+					  width="400"/>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<h1 class="text-center p-3 mb-2 bg-dark text-white">Contact Us</h1>
+<a name="contact"></a>
+<div class="container">
+	<p>CONTACT US</p>
+
+	<div class="login">
+		<input class="input" placeholder="Your Name" type="text">
+		<input class="input" placeholder="Your Email Address" type="text">
+	</div>
+
+	<div class="subject">
+		<input class="input" placeholder="Subject" type="text">
+	</div>
+
+	<div class="msg">
+		<textarea class="area" placeholder="Leave a Message"></textarea>
+	</div>
+
+	<div class="btn">Send Message</div>
+</div>
+<br>
+
 </body>
 </html>
