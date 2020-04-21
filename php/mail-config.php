@@ -21,8 +21,7 @@
 
 // your Google reCAPTCHA keys here
 // your Google reCAPTCHA keys here
-$siteKey = '6Le5Z-wUAAAAALeT1SrD7ffkP5aFYfxjPlGglmEi';
-$secret = '6Le5Z-wUAAAAAFj-tOd2Qb41RoLIwW7TLN5S020P';
+
 
 /**
  * attach the recipients to the message
