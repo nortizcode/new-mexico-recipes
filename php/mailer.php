@@ -28,7 +28,7 @@ try {
 	if (!$resp->isSuccess()) {
 		throw(new Exception("reCAPTCHA error!"));
 	}
-
+//d
 	/**
 	 * Sanitize the inputs from the form: name, email, subject, and message.
 	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,
