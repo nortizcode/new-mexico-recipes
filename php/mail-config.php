@@ -22,8 +22,8 @@ $mailgunDomain = "https://app.mailgun.com/app/sending/domains/sandbox30282ec56f4
 
 // your Google reCAPTCHA keys here
 // your Google reCAPTCHA keys here
-$siteKey = '6Ld6BOwUAAAAAHC5l4HOfmEcjiEHyx8zG7a7_LeP';
-$secret = '6Ld6BOwUAAAAAJ3fFug4-oivTDKeSOK_YZenqfw4';
+$siteKey = '6Le5Z-wUAAAAALeT1SrD7ffkP5aFYfxjPlGglmEi';
+$secret = '6Le5Z-wUAAAAAFj-tOd2Qb41RoLIwW7TLN5S020P';
 
 /**
  * attach the recipients to the message
