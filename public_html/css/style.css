@@ -9,7 +9,7 @@ p {
 	padding: 20px;
 	box-sizing: border-box;
 	margin-bottom: 25px;
-	border: 2px solid #e9eaea;
+	border: 2px solid red;
 	font-size: 14px;
 	border-radius: 5px;
 	outline: none;
@@ -31,12 +31,12 @@ p {
 
 .btn {
 	width: 250px;
-	background: black;
-	height: 50px;
+	background: red;
+	height: 60px;
 	line-height: 50px;
 	text-align: center;
 	border-radius: 5px;
-	margin: 0 auto;
+	margin-bottom: 20px;
 	color: white;
 	text-transform: uppercase;
 	cursor: pointer;
@@ -44,7 +44,7 @@ p {
 
 .input:focus,
 .msg .area:focus {
-	border: 2px solid black;
+	border: 2px solid yellow;
 }
 
 
@@ -61,4 +61,39 @@ p {
 	font-weight: bolder;
 	text-align: center;
 	text-shadow: 0 5px 5px red;
+}
+
+
+
+.social:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+.social {
+	-webkit-transform: scale(0.8);
+	/* Browser Variations: */
+
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+}
+
+/*
+    Multicoloured Hover Variations
+*/
+
+#social-fb:hover {
+	color: #3B5998;
+}
+#social-tw:hover {
+	color: #4099FF;
+}
+#social-gp:hover {
+	color: #d34836;
+}
+#social-em:hover {
+	color: #f39c12;
 }
