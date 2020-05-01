@@ -1,10 +1,10 @@
-h1, p{
+p {
 	font-family: Georgia, serif;
 }
 
 
 .input,
-.msg .area{
+.msg .area {
 	width: 100%;
 	padding: 20px;
 	box-sizing: border-box;
@@ -15,21 +15,21 @@ h1, p{
 	outline: none;
 }
 
-.login .input{
+.login .input {
 	width: 48%;
 	float: left;
 	margin-right: 4%;
 }
 
-.login .input:last-child{
+.login .input:last-child {
 	margin-right: 0;
 }
 
-.msg .area{
+.msg .area {
 	height: 200px;
 }
 
-.btn{
+.btn {
 	width: 250px;
 	background: black;
 	height: 50px;
@@ -43,6 +43,22 @@ h1, p{
 }
 
 .input:focus,
-.msg .area:focus{
+.msg .area:focus {
 	border: 2px solid black;
+}
+
+
+.jumbotron {
+	background-image: url("https://i.ibb.co/WzrJbRP/pile-of-red-and-green-chili-peppers-2893882.jpg");
+	background-size: cover;
+}
+
+.banner-1{
+	color: yellow;
+	font-family: "Great Vibes", cursive;
+	font-size: 75px;
+	line-height: 70px;
+	font-weight: bolder;
+	text-align: center;
+	text-shadow: 0 5px 5px red;
 }
