@@ -1,7 +1,11 @@
+
+/*fonts for recipes*/
+
 p {
 	font-family: Georgia, serif;
 }
 
+/*contact form*/
 
 .input,
 .msg .area {
@@ -47,6 +51,7 @@ p {
 	border: 2px solid yellow;
 }
 
+/*jumbotron background image*/
 
 .jumbotron {
 	background-image: url("https://i.ibb.co/WzrJbRP/pile-of-red-and-green-chili-peppers-2893882.jpg");
@@ -63,7 +68,7 @@ p {
 	text-shadow: 0 5px 5px red;
 }
 
-
+/*footer*/
 
 .social:hover {
 	-webkit-transform: scale(1.1);
@@ -81,9 +86,11 @@ p {
 	-o-transition-duration: 0.5s;
 }
 
+/*about us section*/
+
 .about-us{
 	text-align: center;
 	color: crimson;
-	font-family: "Script MT Bold";
+	font-family: "Script MT Bold", serif;
 	font-size: larger;
 }
