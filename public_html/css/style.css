@@ -93,4 +93,21 @@ p {
 	color: crimson;
 	font-family: "Script MT Bold", serif;
 	font-size: larger;
+	border: 3px solid crimson;
+	border-radius: 5px;
+	background-color: white;
+}
+
+body{
+	background-color: #FFC107;
+}
+
+.link {
+	color: #FFC107;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.about{
+	color: crimson;
 }
