@@ -80,3 +80,10 @@ p {
 	-moz-transition-duration: 0.5s;
 	-o-transition-duration: 0.5s;
 }
+
+.about-us{
+	text-align: center;
+	color: crimson;
+	font-family: "Script MT Bold";
+	font-size: larger;
+}
