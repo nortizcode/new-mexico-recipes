@@ -1,3 +1,4 @@
+
 FROM composer:1.7 as vendor
 
 COPY composer.json composer.json

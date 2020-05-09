@@ -1,6 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166049259-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-166049259-1');
+	</script>
+
+
+	<link rel="shortcut icon" href="images/flag.png" type="image/x-icon" />
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
@@ -14,9 +27,7 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script crossorigin="anonymous"
-			  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-			  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script crossorigin="anonymous"
 			  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
 			  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
@@ -99,7 +110,7 @@
 		<h1 class="about">About New Mexico Recipes</h1>
 		<p><a class="link" href="https://www.facebook.com/groups/681279218640809">New Mexico Recipes</a> was created by
 			Fran Roybal on
-			August of 2015. Fran is the daughter of Jose Ben and Mary Z. Roybal.
+			August of 2015.
 			Coming from a large family of nine, Fran would watch her mother cook all of these wonderful New Mexico dishes
 			and was
 			always willing and eager to learn from her. Fran created the Facebook group New Mexico Recipes to bring people
@@ -1074,7 +1085,7 @@
 
 <h1 class="text-center p-3 mb-2 bg-warning text-white">Contact Us</h1>
 <a id="contact"></a>
-<form action="../php/index.php" id="my-contact-form" method="POST">
+<form action="../php/" id="my-contact-form" method="POST">
 	<div class="container">
 		<p>CONTACT US</p>
 
@@ -1098,6 +1109,13 @@
 		<button class="btn" type="submit">Send Message</button>
 	</div>
 </form>
+
+<!--empty area for form error/success output-->
+<div class="row">
+	<div class="col-xs-12">
+		<div id="output-area"></div>
+	</div>
+</div>
 
 <!--Contact Form Ends-->
 
